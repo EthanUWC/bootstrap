@@ -10,6 +10,7 @@ body{
   header {
     text-align: center;
     background-image: url("../images/ethan.jpg");
+    @media (min-width: 576px) { url("../images/ethan.jpg") };
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
